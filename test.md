@@ -12,7 +12,7 @@
 
 | プラグイン 　　    | 必須 |  説明                      |
 | ------------------------ | :--: | -------------------|
-| Markdown All in One      |  〇  |  Markdown に必要なプラグインの多くが入っています。 |
+| Markdown All in One      |  〇  |  Markdown に必要なプラグインの多くが入っている。 |
 |  Prettier   |  〇  | Markdown のフォーマットを自動整形してくれる。<br>VSCode 設定`Setting`から、`Default Formatter`を`Prettier`に設定、`Format On Save`にチェックを入れる。<br> (俺はその項目見つからなかった) |
 | Text Table  |  〇  |Markdown 内でのテーブル作成が容易になる。`Ctrl`+`Shipt`+`P`で Command Pallet を起動して`create table`を選択して`n*n`指定でテーブルフォーマットが作れたり、`Ctrl+Q`２回押下で Table Mode になって編集ができる。<br>(Table Modeは改行すると表が自動生成される、ほかの機能はよくわからん) |
 | Draw.io Integration             |      | 図などの作画が VSCode 内で簡単にできる。`Editable PNG`形式で作成することで、作成した図表ファイルをそのまま Markdown に埋め込める。                                                                               |
@@ -39,7 +39,7 @@
 
 ドキュメント内には`#`を用いて適切に見出しをつけることで、見出し一覧が自動で作成されて、見出しへのジャンプが容易にできたり、アンカーリンク付きのURLが取得できる。　(要はリンクが埋め込まれた文字や文章のことっぽい)
 
-あとから情報を探しやすいように、適切な単位で見出しを区切ります。
+あとから情報を探しやすいように、適切な単位で見出しを区切る。
 
 ```
 # 見出し1
@@ -66,9 +66,9 @@
 
 https://docs.github.com/ja/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables
 
-`Text Tables`ブラグインを導入している場合、`Ctrl`+`Shipt`+`P`で Command Pallet を起動して`create table`を選択して`n*n`指定でテーブルを作成できます。
+`Text Tables`ブラグインを導入している場合、`Ctrl`+`Shipt`+`P`で Command Pallet を起動して`create table`を選択して`n*n`指定でテーブルを作成できる。
 
-ファイルを作成したら、Markdown 内から作成した図をそのまま呼び出せまる。
+ファイルを作成したら、Markdown 内から作成した図をそのまま呼び出せる。
 作成した表は、保存すると、Formatter により自動的に列横幅などが調整される。
 
 **補足：テーブル操作**
@@ -77,22 +77,22 @@ https://docs.github.com/ja/get-started/writing-on-github/working-with-advanced-f
   `-----`の行を`:---:`のように書くとその列は文字位置が中央寄せになる。
 
 - Table Mode を切り替える
-  `Ctrl`+`Q`を２回連続押下することで、Table Mode に切替らえます。Table Mode にすることで、テーブル操作が簡単に行えるようになります。
+  `Ctrl`+`Q`を２回連続押下することで、Table Mode に切替らえます。Table Mode にすることで、テーブル操作が簡単に行えるようになる。
 
 - (Table Mode)行を追加する
   テーブル末行内で`Enter`を押下すると、１行テーブルが増える。
 
 - 行を入れ替える
-  VisualStudioCode 標準の動きですが、`Alt`+上下キーで行を入れ替えれる。
+  VisualStudioCode 標準の動きについては、`Alt`+上下キーで行を入れ替えれる。
 
 - (Table Mode)列を入れ替える
   `Alt`+左右キーで列を入れ替えれる。
 
   ## ドキュメント内の画像参照
 
-構成図などのイメージ及びイメージソースファイルに関しては、本リポジトリ内`assets`配下に格納して、ドキュメント内からはルート相対パスで参照するものとします。
+構成図などのイメージ及びイメージソースファイルに関しては、本リポジトリ内`assets`配下に格納して、ドキュメント内からはルート相対パスで参照するものする。(実際は臨機応変に)
 
-例えば次のようなパスと参照方法になります。
+例えば次のようなパスと参照方法になる。
 
 **画像ファイルの格納パス**
 
@@ -116,7 +116,8 @@ assets/sample/sample.png
 <img src="Sample/Sample.JPG" width=1000 />
 
 ```
-※注意：画像参照を貼り付けるときに直前の行にテキスト行などが存在すると、プレビューでは改行されて画像が表示されますが、GitHub 上では回り込んで表示されてしまいます。画像参照を設定するときは、上の行を空行を入れるように注意します。
+※注意：画像参照を貼り付けるときに直前の行にテキスト行などが存在すると、プレビューでは改行されて画像が表示されるが、GitHub 上では回り込んで表示されてしまう。画像参照を設定するときは、上の行を空行を入れるように注意する。
+(要は画像とか表示する文の前後は行空けろってこと。表示する環境によって変わったりするらしい)
 
 **表示例**
 
