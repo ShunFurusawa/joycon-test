@@ -122,24 +122,3 @@ assets/sample/sample.png
 
 <img src="MarkdownTest/ria.JPG" width=1000 />
 
-## 作画ルール
-
-Markdown 内で構成図などの図を参照する場合、`draw.io`(VSCode プラグインあり)を使用して、`Editable PNG`で記載します。
-VSCode の`Draw.io Integration`プラグインを導入済みであれば、`*.drawio.png`の名前で新規ファイル作成するのみで、作画ツールを VSCode 内で起動できます。
-
-**図表ファイル（`Editable PNG`）の格納パス**
-
-```
-assets/sample/test.drawio.png
-```
-
-**Markdown での参照方法**
-
-```
-
-![](assets/sample/test.drawio.png)
-```
-
-**表示例**
-
-![](assets/sample/test.drawio.png)
